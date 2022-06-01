@@ -130,13 +130,19 @@ text-transform: uppercase;
 /* START FOOTER STYLE */
 .post-address {
     color: var(--page-color);
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
     font-style: normal;
 }
 .whitecolor-logo {
     color: var(--page-color);
+}
+.item-footer {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+.contact.item-footer {
+color: #FFFFFF60;
+font-weight: 400;
 }
 /* END FOOTER STYLE */
 
