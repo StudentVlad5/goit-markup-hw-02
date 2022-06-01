@@ -1,4 +1,15 @@
-/* COMMON STYLES */
+/* START GLOBAL STYLES */
+:root {
+    --page-color: #FFFFFF;
+    --activity-color: #2196F3;
+    --main-text-color:#212121;
+    --secondary-text-color: #757575;
+    --secondary-footer-text-color: #FFFFFF60;
+    --footer-background-color: #2F303A;
+}
+/* END GLOBAL STYLES */
+
+/* START COMMON STYLES */
 body {
     color: var(--main-text-color);
     background-color: var(--page-color);
@@ -22,6 +33,7 @@ h1 {
 footer {
     background-color: var(--footer-background-color);
 }
+/* END COMMON STYLES */
 
 /* START HEADER STYLE*/
 
@@ -59,6 +71,8 @@ footer {
     line-height: 1.88;
     text-align: center;
     letter-spacing: 0.06em;
+    width: 200px;
+    height: 50px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
@@ -125,6 +139,9 @@ text-transform: uppercase;
 /* END FOOTER STYLE */
 
 /* START FILTER OF PROJECTS */
+.do-not-show {
+    display: none;
+}
 .filter-button {
     color: var(--main-text-color);
     background-color: #F5F4FA;
