@@ -1,4 +1,4 @@
-/* START GLOBAL STYLES */
+/*  COLOR STYLES */
 :root {
     --page-color: #FFFFFF;
     --activity-color: #2196F3;
@@ -7,13 +7,12 @@
     --secondary-footer-text-color: #FFFFFF60;
     --footer-background-color: #2F303A;
 }
-/* END GLOBAL STYLES */
 
 /* START COMMON STYLES */
 body {
     color: var(--main-text-color);
     background-color: var(--page-color);
-    font-family: Roboto, sans-serif;
+    font-family: Roboto, sans-serif, Arial, sans-serif;
 }
 ul li {
     list-style: none;
@@ -32,6 +31,9 @@ h1 {
 }
 footer {
     background-color: var(--footer-background-color);
+}
+button {
+    cursor: pointer;
 }
 /* END COMMON STYLES */
 
@@ -167,3 +169,15 @@ text-transform: uppercase;
     letter-spacing: 0.06em;
 }
 /* END FILTER OF PROJECTS */
+
+/* START ACTIONS STYLES  */
+.menu-item:hover,
+.menu-item:focus {
+    color: var(--activity-color);
+}
+.filter-button:hover,
+.filter-button:focus {
+    color:var(--page-color);
+    background-color: var(--activity-color);
+}
+/* END ACTIONS STYLES  */
