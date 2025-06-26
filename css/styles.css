@@ -1,0 +1,144 @@
+:root {
+	--iris: #4d5ae5;
+	--ocean: #404bbf;
+	--navy-blue: #2e2f42;
+	--green: #31d0aa;
+	--slate: #434455;
+	--light-slate: #8e8f99;
+	--cornflower: #e7e9fc;
+	--cloud: #f4f4fd;
+	--navy-blue-modal: rgba(46, 47, 66, 0.4);
+	--grey: rgba(46, 47, 66, 0.7);
+	--white: #fff;
+	--dairy: #fcfcfc;
+    --font-family: "Roboto", sans-serif;
+    --second-family: "Raleway", sans-serif;
+}
+
+body {
+    font-family: var(--font-family), var(--second-family);
+    line-height: 1.5;
+    font-size: 16px;
+    font-style: normal;
+    color: var(--slate);
+    letter-spacing: 0.02em;
+}
+a {
+    text-decoration: none;
+    font-style: normal;
+}
+
+button:hover, 
+button:focus,
+a:hover,
+a:focus {
+cursor: pointer;
+color: var(--ocean);
+}
+
+ul, ol {
+list-style-type: none;
+}
+
+/* HEADER */
+.logo {
+font-family: var(--second-family);
+font-weight: 700;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--iris);
+}
+
+.logo-style {
+color: var(--navy-blue);
+}
+
+.menu-nav__link {
+color: var(--navy-blue);
+}
+
+.contact {
+color: var(--slate);
+}
+
+/* HERO */
+.hero.section--position {
+width: 1440px;
+height: 600px;
+background: var(--navy-blue);
+}
+
+.hero__title {
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+text-align: center;
+color: var(--white);
+}
+
+.standartButtom {
+border-radius: 4px;
+padding: 16px 32px;
+width: 169px;
+height: 56px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background: var(--iris);
+color:var(--white);
+letter-spacing: 0.04em;
+}
+
+/* advantages */
+.advantages__title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+color: var(--navy-blue);
+}
+
+.section__title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+}
+
+/* TEAM */
+.team.section--position {
+width: 1440px;
+/* height: 732px; */
+background: var(--cloud);
+color: var(--navy-blue);
+text-align: center;
+}
+
+.team--member {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+}
+
+/* PORTFOLIO */
+.portfolio.section--position {
+color: var(--navy-blue);
+}
+
+.portfolio--project {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+}
+
+.portfolio--field {
+color: var(--slate);
+}
+
+/* FOOTER */
+.footer {
+width: 1440px;
+height: 312px;
+background: var(--navy-blue);
+}
+.footer__text {
+color: var(--cloud);
+}
