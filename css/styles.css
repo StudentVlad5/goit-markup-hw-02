@@ -24,7 +24,7 @@ body {
     letter-spacing: 0.02em;
     background-color: var(--white);
 }
-a {
+/* a {
     text-decoration: none;
     font-style: normal;
 }
@@ -38,12 +38,12 @@ background-color: var(--ocean);
 a:hover,
 a:focus {
 cursor: pointer;
-background-color: var(--ocean);
+color: var(--ocean);
 }
 
 ul, ol {
 list-style-type: none;
-}
+} */
 
 .section__title {
 font-weight: 700;
@@ -78,8 +78,7 @@ font-weight: 500;
 .menu-nav__link:hover,
 .menu-nav__link:focus {
 cursor: pointer;
-background-color: #404bbf ;
-/* background-color: var(--ocean); */
+color: var(--ocean) ;
 }
 
 .address {
@@ -92,8 +91,7 @@ color: var(--slate);
 .contact:hover,
 .contact:focus {
 cursor: pointer;
-background-color: #404bbf ;
-/* background-color: var(--ocean); */
+color: var(--ocean) ;
 }
 
 /* HERO */
