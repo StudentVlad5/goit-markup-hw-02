@@ -33,7 +33,7 @@ button:focus,
 a:hover,
 a:focus {
 cursor: pointer;
-color: var(--ocean);
+background-color: var(--ocean);
 }
 
 ul, ol {
